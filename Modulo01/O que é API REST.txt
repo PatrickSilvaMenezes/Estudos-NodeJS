@@ -1,0 +1,50 @@
+API REST
+
+fluxo: requisiçao e resposta
+frontend: recebe os dados e processa
+resposta: através de uma estrutura de dados
+
+Rotas
+
+GET - http://minhaapi.com/usuarios estou buscando todos os usuarios dessa aplicaçao 
+POST - http://minhaapi.com/usuarios estou criando um novo usuário no meu sistema
+PUT - http://minhaapi.com/usuarios/1 estou no usuario 1 e editando informaçoes dele
+DELETE - http://minhaapi.com/usuarios/1 estou indo no usuario 1 e deletando ele do sistema
+
+
+Vantagens
+
+varios clientes(front-end)
+comunicaçao padronizada (web, mobile, desktop)
+
+Estrutura de dados
+
+JSON
+
+estrutura padrao para comunicaçao entre frontend e backend
+de uma aplicaçao
+
+
+Metodos http
+
+GET, POST, PUT, DELETE
+
+HTTP CODES
+
+1xx: Information
+
+2XX: Success
+    200: Success
+    201: Created
+
+3xx: Redirection
+    301: Moved Permanently
+    302: Moved
+
+4xx: Client Error
+    400: Bad request
+    401: Unauthorized
+    404: Not found
+
+5xx: Server Error
+    500: Server Error

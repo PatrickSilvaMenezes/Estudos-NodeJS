@@ -1,0 +1,17 @@
+O que é Node js
+
+Back end
+Rotas
+NodeJS nao é uma linguagem (Plataforma)
+
+O que é NPM/Yarn?
+Instalar bibliotecas de terceiros
+criar próprias bibliotecas
+Yarn porque está mais otimizado em relaçao ao npm
+
+Características do Node Js
+
+Arquitetura Event-loop
+    - Call Stack (Pilha de Eventos)
+Single-thread
+Non-Blocking I/O
